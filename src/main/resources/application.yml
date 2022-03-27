@@ -1,0 +1,9 @@
+micronaut:
+  server:
+    port: 8081
+  application:
+    name: demoClient
+netty:
+  default:
+    allocator:
+      max-order: 3
